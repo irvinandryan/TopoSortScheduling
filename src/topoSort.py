@@ -38,6 +38,8 @@ def getUrutanMatkul(listMataKuliah):
                     listMataKuliah[j].remove(currentSemester[i])
                     #menghapus mata kuliah yang diambil di semester ini dari listMataKuliah.
                     #dihapus baik sebagai mata kuliah itu sendiri maupun sebagai prasyarat mata kuliah lain.
+        			#penghapusan dilakukan di sini (tidak segera setelah mata kuliah semester ini ditemukan) 
+                    #untuk mencegah suatu mata kuliah diambil pada semester yang sama dengan mata kuliah prasayaratnya
         
         urutanMatkul.append(currentSemester)
         #menambahkan mata kuliah pada listCurrentSemester ke list urutanMatkul

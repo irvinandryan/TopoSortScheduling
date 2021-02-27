@@ -12,12 +12,13 @@
 Program berfungsi untuk melakukan penyusunan mata kuliah yang dapat diambil setiap semesternya dengan memperhatikan mata kuliah prerequisite / mata kuliah prasyarat yang perlu diambil terlebih dahulu. Suatu mata kuliah tidak dapat diambil pada semester yang sama dengan mata kuliah prasyaratnya. Penyusunan mata kuliah dilakukan menggunakan topological sorting, dengan cara mengambil mata kuliah yang dapat diambil terlebih dahulu (yang sudah tidak memiliki prasyarat).
 
 ## Requirement
-Program ditulis menggunakan bahasa Python 3, tidak ada requirement khusus.
+### Program ditulis menggunakan bahasa Python 3. 
+### Pastikan program dijalankan di direktori src, bukan di direktori Decrease-Conquer.
 
 ## Setup
 Berikut cara menjalankan program :
-1. Buka direktori Decrease-Conquer/src/ pada terminal
-2. Masukkan perintah "python3 Tucil2_13519162.py" untuk melakukan compile dan me-run program
+1. Buka direktori Decrease-Conquer/src/ pada terminal (Pastikan menjalankan program di direktori src).
+2. Masukkan perintah "python3 Tucil2_13519162.py" untuk melakukan compile dan menjalankan program.
 
 ## Usage
 1. Jika ingin melakukan testing program, sudah ada 8 file yang dapat dijadikan input file.

@@ -11,11 +11,11 @@ from printMatkul import printUrutanMatkul
 '''
 Main Program
 '''
-programRun = True #selama maka program akan berjalan terus
+programRun = True #selama true program akan berjalan terus
 while (programRun):
     namaFile = str(input("Masukkan nama file : ")) #nama file input
     listMataKuliah = openFile(namaFile) #membuka file dan memasukkan isinya ke listMataKuliah
-    listUrutanMatkul = getUrutanMatkul(listMataKuliah) #mendapatkan urutan matkul, disimpan dan di listUrutanMatkul
+    listUrutanMatkul = getUrutanMatkul(listMataKuliah) #mendapatkan urutan matkul, dan disimpan di listUrutanMatkul
     printUrutanMatkul(listUrutanMatkul) #print urutan matkul ke layar
     print('')
     print("Apakah ingin memasukkan file baru?")
