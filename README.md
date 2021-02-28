@@ -13,11 +13,11 @@ Program berfungsi untuk melakukan penyusunan mata kuliah yang dapat diambil seti
 
 ## Requirement
 ### Program ditulis menggunakan bahasa Python 3. 
-### Pastikan program dijalankan di direktori src, bukan di direktori Decrease-Conquer.
+### Pastikan program dijalankan di direktori src, bukan di direktori Tucil2_13519162
 
 ## Setup
 Berikut cara menjalankan program :
-1. Buka direktori Decrease-Conquer/src/ pada terminal (Pastikan menjalankan program di direktori src).
+1. Buka direktori Tucil2_13519162/src/ pada terminal (Pastikan menjalankan program di direktori src).
 2. Masukkan perintah "python3 13519162-main.py" untuk melakukan compile dan menjalankan program.
 
 ## Usage
