@@ -18,7 +18,7 @@ Program berfungsi untuk melakukan penyusunan mata kuliah yang dapat diambil seti
 ## Setup
 Berikut cara menjalankan program :
 1. Buka direktori Decrease-Conquer/src/ pada terminal (Pastikan menjalankan program di direktori src).
-2. Masukkan perintah "python3 Tucil2_13519162.py" untuk melakukan compile dan menjalankan program.
+2. Masukkan perintah "python3 13519162-main.py" untuk melakukan compile dan menjalankan program.
 
 ## Usage
 1. Jika ingin melakukan testing program, sudah ada 8 file yang dapat dijadikan input file.
